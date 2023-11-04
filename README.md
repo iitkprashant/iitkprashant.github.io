@@ -1,4 +1,4 @@
-# Prashant Kumar - Resume
+# Prashant Kumar
 
 ## Contact Information
 - **Phone:** +91-6204758429
