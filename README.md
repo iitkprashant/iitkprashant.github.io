@@ -56,7 +56,7 @@
 - **CFD Software:** OpenFOAM, Ansys Fluent, Tecplot
 - **Other Tools:** Autodesk Fusion 360, Microsoft Office, LaTeX
 - **Relevant Coursework:** Instabilities of Fluid Flows(ME698W), Turbulence(AE621A), Applied Computational Fluid Dynamics(AE661A)
-- **Current Relevant Coursework:** Introduction to Machine Learning(CS771A), High Performance Computing and its Application(IDC606A)
+- **Current Relevant Coursework:** High Performance Computing and its Application(IDC606A)
 - **Areas of Interest:** Scientific Machine Learning, Turbomachinery Flows, Aerodynamics, Instability
 
 ## Extracurricular Activities
@@ -68,5 +68,4 @@
 - **PhD Supervisor**
   - Dr. Rajesh Ranjan
   - Email: rajeshr@iitk.ac.in
-  - IIT Kanpur
 
