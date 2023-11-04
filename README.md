@@ -3,7 +3,6 @@
 ## Contact Information
 - **Phone:** +91-6204758429
 - **Email:** kumarp22@iitk.ac.in
-- **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/your-linkedin-profile)
 
 ## Education
 - **PhD in Aerospace Engineering**
