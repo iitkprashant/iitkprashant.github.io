@@ -48,7 +48,7 @@
 - **Graduate Engineer Trainee**
   - Larsen & Toubro
   - July - Oct 2022
-  - Worked in Plant and Machinery Department in Construction of Nuclear Power Plant, Kudankulam, Tamilnadu
+  - Worked in Plant and Machinery Department in Construction of Nuclear Power Plant, Kudankulam, Tamilnadu.
 
 ## Technical Skills and Interests
 - **Languages:** C/C++, Fortran, MATLAB, Python
