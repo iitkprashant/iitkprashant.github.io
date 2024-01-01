@@ -69,3 +69,6 @@
   - Dr. Rajesh Ranjan
   - Email: rajeshr@iitk.ac.in
 
+
+### Major Collaborator for code @payal2000jha :)
+
