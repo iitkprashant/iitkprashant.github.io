@@ -3,7 +3,7 @@ html {
   }
   html, body {
     height: 100%; 
-    margin: 0; /* Reset default margins */
+
 }
 
   body {
@@ -12,7 +12,11 @@ html {
     flex-direction: column; 
     height: 100%;
     min-height: 100vh; 
+    margin: 0; /* Reset default margins */
   }
+main {
+  flex: 1; /* Grow to fill remaining space */
+}
 header nav {
     display: flex; /* Activate flexbox layout */
     justify-content: space-between; /* Distribute elements across the line*/
@@ -210,12 +214,14 @@ figure {
     text-align: center; 
 }
 footer {
-    background-color: #f0f0f0;
-    text-align: center;
-    padding: 20px;
-    position: relative;    /* Change to relative */
-    bottom: 0;             /* Push to bottom */
-    width: 100%;           /* Ensure it takes full width */
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  position: fixed; /* Fixed positioning */
+  bottom: 0; /* Stick to the bottom */
+  left: 0; /* Align to the left */
+  right: 0; /* Align to the right */
 }
 
 footer a {
