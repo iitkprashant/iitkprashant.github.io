@@ -1,407 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>prashant_kumar</title>
+    <title>Prashant Kumar - PhD Student</title>
     <link rel="stylesheet" href="style.css">
-
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
-
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo">Prashant kumar</div>
-            <div class="menu-toggle">&#9776;</div>
-            <ul class="menu">
-                <li><a href="#" onclick="scrollToSection('about_')">About</a></li>
-                <li><a href="#" onclick="scrollToSection('experiance')">Experience</a></li>
-                <li><a href="#" onclick="scrollToSection('research_')">Research</a></li>
-                <li><a href="#" onclick="scrollToSection('education_')">Education</a></li>
-                <li><a href="https://home.iitk.ac.in/~rajeshr/index.html">ACAL</a></li>
-                <li><a href="#" onclick="scrollToSection('skills_')">Skills</a></li>
-                <!-- <li><a href="#">Contact</a></li> -->
-               <li> <a href="#" onclick="scrollToSection('contact')">Contact</a></li>
+    <header>
+        <nav>
+            <h1>Prashant Kumar</h1> 
+            <ul>
+                <li><a href="education.html">EDUCATION</a></li>
+                <li><a href="research.html">RESEARCH</a></li>
+                <li><a href="publication.html">PUBLICATION</a></li>
+                <li><a href="experience.html">EXPERIENCE</a></li>
+                <li><a href="#skills">SKILLS</a></li>
             </ul>
-        </div>
-    </nav>
-    <!-- content of wbesite  -->
+        </nav>
+    </header>
 
-    <!-- About  -->
-    <section class="main_class">
-    <section class="about" id="about_">
-        <br>
-        <br>
-
-        <br>
-        <div class="container_about">
-            <!-- <h2>About</h2> -->
-            <br>
-            <div class="about-content">
-                <div class="about-item">
-                    <br>
-                    <img src="final_profile.jpg" alt="my_picture" width="260" height="293">
-                    <br>
-
-
-
-                </div>
-                <div class="about-item">
-                    <br>
-                    <h2>Hi, I am Prashant Kumar.</h2>
-                    <br>
-                    <h4>Prime Minister's Research Fellow (PMRF)</h4>
-                    <br>
-                    <p> My interest area lies in Physics informed machine learning for high speed flows, shape
-                        optimization and Computational Fluid Dynamics.
-
-                    </p>
-                    <br>
-
-                    <br>
-
-                    <p><button> <a href="./CV.pdf" download>Download_CV</a></button></p>
-                    <br>
-
-
-                </div>
-                <!-- Add more education items as needed -->
+    <main>
+        <section id="intro">
+            <div class="intro-text">
+                <h2>About Us</h2>
+                <p>I'm Prashant Kumar, PhD scholar(PMRF) at IIT Kanpur in Department of 
+                    Aerospace Engineering. I'm working  with Dr. Rajesh Ranjan
+                    (ACAL) in the area of Scientific Machine Learning that includes
+                     Physics-informed Neural Network of Incompressible and compressible flows for turbomachinery
+                     flows.</p>
+                     <p>Traditional methods have difficulty with complex, low Reynolds Number 
+                     flows in turbine blades, which hinders design optimisation. 
+                     PINN solves this problem by combining machine learning and physics 
+                     comprehension. Unlike deep learning models, PINN does not require massive 
+                     amounts of data and takes flow physics into account. Extending PINN to 
+                     compressible flows (common in turbines), predicting blade performance (e.g., T106A, VKI-LS89), and optimising designs to reduce separation and wake losses are all components of the research. It includes the prediction of turbine blade performance in transitional flow conditions. "
+                    
+                </p>
             </div>
-        </div>
-    </section>
-    <section class="Experiance_1" id="experiance">
-        <br>
-
-        <br>
-        <!-- <h2>Experiance</h2> -->
-        <div class="container_Experiance_1">
-            <h2>Experience</h2>
-            <!-- <h2>About</h2> -->
-            <br>
-            <div class="Experiance_1-content">
-                <div class="Experiance_1-item">
-                    <br>
-                    <img src="\images\iit-ropar (1).png" alt="my_picture" width="110" height="110">
-                    <br>
-
-
-
-                </div>
-                <div class="Experiance_1-item">
-                    <br>
-                    <h3>Project Associate, RMML lab, IIT Ropar</h3>
-                    <br>
-                    <h4>Nov 2022 - Dec 2022</h4>
-                    <br>
-                    <h4>Design of Gas Turbine for Energy Storage</h4>
-                        <p>
-                            <ul>
-                                <li>Design of Radial Gas turbine for High Temperature and Pressure (Numerical CFD Simulation in ANSYS Fluent).</li>
-                                <li>Studied the effect of supercritical CO2 on critical flow of Turbine.</li>
-                            </ul>
-                        </p>
-
-                    <br>
-
-
-
-
-
-                </div>
-                <!-- Add more education items as needed -->
+            <div class="intro-image">
+                <img src="IMG_9770.JPG" alt="Your Profile Picture">
             </div>
-        </div>
-        <div class="container_Experiance_1">
-            <div class="Experiance_1-content">
-                <div class="Experiance_1-item">
-                    <br>
-                    <img src="\images\L&T.png" alt="my_picture" width="110" height="110">
-                    <br>
+        </section>
 
-
-
-                </div>
-                <div class="Experiance_1-item">
-                    <br>
-                    <h3>Graduate Engineer Trainee At Larsen & Toubro</h3>
-                    <br>
-                    <h4>July - Oct 2022</h4>
-                    <br>
-                    <p>Worked in Plant and Machinery Department in Construction of Nuclear Power Plant, Kudankulam,
-                        Tamilnadu</p>
-
-
-
-
-                    <br>
-
-
-                </div>
-            </div>
-    </section>
+        <section id="skills">
+      
     
-    <section class="Research" id="research_">
-        <br>
-        <br>
-        <!-- <h2>Research</h2> -->
-        <br>
-        <div class="container_Research">
-            <br>
-            <h2>Research</h2>
-           
-            <br>
-            <div class="Research-content">
-
-                
-        <!-- <h2>Research</h2> -->
-                <div class="Research-item">
-                    <br>
-                    
-                    <br>
-                    <a
-                        href="https://www.researchgate.net/publication/369037880_Effect_of_Corner_Curvature_of_Square_Cylinder_on_Flow_Transition_and_Heat_Transfer">ICFTES2022</a>
-                    <br>
-                           <br>
-                         
-                           <br>
-                           <!-- Add ur released paper link at the place of # -->
-                           <!-- <a href="#">Yet to Publish</a>      -->
-
-
-                </div>
-                <div class="Research-item">
-                    <br>
-                    <h3>Publication</h3>
-                    <br>
-                    <!-- <h4>Prime Minister's Research Fellow (PMRF)</h4> -->
-                    
-                    <p>Prashant Kumar, Saurabh Singh Chauhan, Prasenjit Dey, <strong>Effect of Corner Curvature of Square Cylinder on
-                        Flow Transition and Heat Transfer.</strong> Proceedings of the 1st International Conference in Fluid Thermal and
-                        Energy Systems, (ICFTES2022)</p>
-                        
-                    <br>
-                        <!-- &lt;strong&gt; -->
-                    <br>
+        </section>
 
 
 
+    </main>
 
-                </div>
-                <!-- Add more education items as needed -->
-            </div>
-        </div>
-       
+    <footer>
+        <p>
+            <a href="mailto:kumarp22@iitk.ac.in"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/iitkprashant"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/yourprofile"><i class="fab fa-linkedin-in"></i></a>
+        </p>
+      </footer>
 
-        <div class="container_Research">
-           
-            
-            <div class="Research-content">
-
-                
-        <!-- <h2>Research</h2> -->
-                <div class="Research-item">
-                    <br>
-                    
-                    
-                  <a href="#">FMFP2023</a>
-                           
-                          
-
-
-                </div>
-                <div class="Research-item">
-                    
-                   
-                    <p>Prashant Kumar, Rajesh Ranjan, <strong>Evaluation of Physics-informed Machine Learning
-                        Approach for Computation of Fluid Flows.</strong>  Submitted in 10th International and 50th National
-                        Conference on Fluid Mechanics and Fluid Power (FMFP), 2023 </p>
-</div>
-                <!-- Add more education items as needed -->
-            </div>
-        </div>
-       
-    </section>
-
-    <section class="education" id="education_">
-        <br>
-        <br>
-
-        <br>
-        <div class="container_education">
-            <h2>Education</h2>
-            <br>
-            <div class="education-content">
-                <div class="education-item">
-                    <br>
-                     <img src="\images\IIT-KANPUR.png" alt="#" width="150" height="150">
-                    <br>
-
-
-
-                </div>
-                <div class="education-item">
-                    <br>
-                    
-                    <br>
-
-                    <h3>PhD in Aerospace Engineering</h3>
-                    
-                    <p>Indian Institute of Technology, Kanpur</p>
-                    
-                    <p>Jan 2023 - Exp. Dec 2027</p>
-                         
-                         <p> <a href="RESULTS.html" >CGPA: 9.14</a> </p>
-                         <br>
-<!--                          <img src="\images\phd_file.jpg" alt="grade_card" width="420" height="170"> -->
-
-                </div>
-                <!-- Add more education items as needed -->
-            </div>
-        </div>
-        <div class="container_education">
-           
-            <br>
-            <div class="education-content">
-                <div class="education-item">
-                    
-                     <img src="\images\National Institute of Technology Goa.png" alt="#" width="150" height="150">
-                    <br>
-
-
-
-                </div>
-                <div class="education-item">
-                    <br>
-                    
-                
-
-                <h3> B.Tech in Mechanical Engineering</h3>
-                <p>National Institute of Technology, Goa</p>
-                <p>2018 - 2022</p>
-                <p>CGPA: 8.55</p>
-
-                </div>
-                <!-- Add more education items as needed -->
-            </div>
-        </div>
-    </section>
-   
-
-    <section class="skills" id="skills_">
-        <br>
-        <br>
-        <div class="container_skills">
-            
-            <h2>Skills</h2>
-            
-              <div class="tab">
-             <div class="tb1">
-                <br>
-                <h5 class="hed">Languages</h5>
-                <br>
-                <li>C/C++</li>
-                <br>
-                <li>Fortran</li>
-                <br>
-                <li>MATLAB</li>
-                <br>
-                <li>Python</li>
-             </div>
-             <br>
-             <div class="tb2">
-                <br>
-                <h5 class="hed">Machine Learning Libraries</h5>
-                <br>
-                <li> DeepXDE</li>
-                <br>
-                <li>Nvidia Modulus</li>
-                <br>
-                <li> PyTorch</li>
-                
-             </div>
-             <br>
-             <div class="tb3">
-                <br>
-                <h5 class="hed">CFD Software</h5>
-                <br>
-                <li>OpenFOAM</li>
-                <br>
-                <li>Ansys Fluent</li>
-                <br>
-                <li>Tecplot 360</li>
-             </div>
-             <br>
-             <div class="tb4">
-                <br>
-                <h5 class="hed">Others</h5>
-                <br>
-                <li>Autodesk Fusion 360</li>
-                <br>
-                <li>Microsoft Office</li>
-                <br>
-                <li>Latex</li>
-               
-             </div>
-            </div>
-        </div>
-
-    </section>
-    <section class="contact" id="contact"> 
-        <div class="connections">
-            <br>
-            <h2>Contact</h2>
-            <br>
-            <br>
-            <div class="contact_cont">
-                <div class="styled-button">
-                    <a href="mailto:kumarp22@iitk.ac.in">
-                        <img src="\images\mail.png" alt="mail Icon" width="40" height="40"> 
-                    </a>
-                </div>
-                <br>
-                <div class="styled-button">
-                    <a href="https://www.linkedin.com/in/prashant-kumar-432b03185" target="_blank">
-                        <img src="\images\linkedin.png" alt="LinkedIn Icon" width="40" height="40"> 
-                    </a>
-                </div>
-                <br>
-                <div class="styled-button">
-                    <a href="https://x.com/iitk_prashant?t=aEnj1BigtKK77aEYxLPd0A&s=08" target="_blank">
-                        <img src="\images\x.png" alt="X Icon" width="40" height="40"> 
-                    </a>
-                </div>
-                <br>
-                <div class="styled-button">
-                    <a href="https://github.com/iitkprashant" target="_blank">
-                        <img src="\images\git.png" alt="Github Icon" width="40" height="40"> 
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-  <footer>
-
-  </footer>
-
-
-
-    <script src="script.js">
-        //  function showContent(contentId) {
-        // // Hide all sections
-        // document.querySelectorAll('section').forEach(section => {
-        //     section.style.display = 'none';
-        // });
-
-        // // Show the selected section
-        // document.getElementById(contentId).style.display = 'block';
-    // }
-    </script>
-
-</section>
-</body>
-
+    <script src="script.js"></script> </body>
 </html>
