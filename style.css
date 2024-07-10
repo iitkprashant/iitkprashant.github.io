@@ -1,116 +1,118 @@
 html {
-    height: 100%; /* Make the 'html' element take full viewport height */
-  }
-  html, body {
-    height: 100%; 
-
+    height: 100%;
 }
-
-  body {
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
     display: flex;
-    flex-direction: column; 
-    height: 100%;
-    min-height: 100vh; 
-    margin: 0; /* Reset default margins */
-  }
-main {
-  flex: 1; /* Grow to fill remaining space */
+    flex-direction: column;
 }
+
+body {
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
 header nav {
-    display: flex; /* Activate flexbox layout */
-    justify-content: space-between; /* Distribute elements across the line*/
-    align-items: center;  /* Vertically center the content */
-    background-color: #f0f0f0;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
     padding: 15px 0;
 }
 
+header nav h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 10px;
+}
+
 header nav ul li a {
-    text-decoration: none; /* Remove default underline */
-    color: #333; /* Your normal link color */
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
 }
 
 header nav ul li a:hover,
-header nav ul li a.active { /* Add a class "active" to the current section's link */
-    color: #007bff; /* Example highlight color - change as needed */
-} 
-
-header nav ul {
-    list-style-type: none; /* Remove bullet points */
-    margin: 0;
-    padding: 0;
+header nav ul li a.active {
+    color: #007bff;
 }
-
-header nav h1 {
-    margin-left: 20px;  /* Adjust the value as needed */
-}
-
-header nav li {
-    display: inline;    /* Place list items horizontally */
-    margin-right: 20px; /* Add spacing between items */
-    margin-left: 20px;
-} 
- 
 
 #intro {
-    display: flex; /* For side-by-side layout */
-    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    margin: 40px;
+    text-align: center;
+    padding: 20px;
 }
+
 #intro .intro-text {
-    margin: 0 40px; /* Adds margin to the left and right */   
+    margin-bottom: 20px;
 }
 
 #intro .intro-text p {
-    font-size: 18px; /* Increase the font size */
-    line-height: 1.5; /* Add line spacing for better readability */
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
 }
-#intro .intro-image {  
-    margin-right: 20px; 
-    flex: 0 0 auto; 
-    width: 400px; /* Increased width */
-    overflow: hidden; 
+
+#intro .intro-image {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
 }
 
 #intro .intro-image img {
-    width: 100%; 
-    height: auto; /* Let the image adapt to the container's size, respecting aspect ratio */ 
+    width: 100%;
+    height: auto;
 }
 
-@media (max-width: 600px) { /* Adjust breakpoint as needed */
+@media (min-width: 600px) {
     header nav {
-        flex-direction: column; /* Stack elements vertically on small screens */
-        align-items: flex-start; /* Or center, if you prefer */
+        flex-direction: row;
+        justify-content: space-between;
     }
-    table {
-        width: 100%; /* Make table take full width on small screens */
-      }
+    
     header nav h1 {
-        margin-left: 0; /* Remove left margin on smaller screens */
+        margin-left: 20px;
     }
 
     header nav ul {
-        margin-top: 10px; /* A little spacing below the heading */
-    }
-
-    #intro {
-        flex-direction: column; /* Stack image and text vertically */
-        align-items: center;
-    }
-    #intro .intro-image {
-        width: 300px; /* Or adjust as needed */
-        display: none;
-    }
-
-    body { 
-        font-size: 15px; /* Slightly decrease base font size */
+        margin-right: 20px;
     }
 
     header nav ul li {
-        margin-right: 15px; /* Reduce spacing between nav items */
+        margin: 0 15px;
     }
- }
+
+    #intro {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    #intro .intro-text {
+        margin-right: 20px;
+    }
+
+    #intro .intro-image {
+        margin-right: 20px;
+    }
+}
  .education-container {
     display: flex; 
     flex-direction: column; 
@@ -214,19 +216,19 @@ figure {
     text-align: center; 
 }
 footer {
-  background-color: #f0f0f0;
-  text-align: center;
-  padding: 20px;
-  width: 100%;
-  position: fixed; /* Fixed positioning */
-  bottom: 0; /* Stick to the bottom */
-  left: 0; /* Align to the left */
-  right: 0; /* Align to the right */
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 footer a {
-    display: inline-block; /* Key change */
-    margin: 0 10px; 
-    color: #2d2121;  
-    font-size: 30px; 
+    display: inline-block;
+    margin: 0 10px;
+    color: #2d2121;
+    font-size: 24px;
 }
