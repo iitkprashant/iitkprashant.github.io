@@ -8,7 +8,6 @@ html, body {
     display: flex;
     flex-direction: column;
 }
-
 /* Ensure footer is at the bottom */
 body {
     min-height: 100vh;
@@ -118,8 +117,9 @@ main {
         display: none;
     }
 
+    /* Ensure nav-menu is visible on desktop */
     .nav-menu {
-        margin: 0;
+        display: flex !important; /* Add this to make sure it appears */
     }
 
     #intro {
@@ -156,6 +156,7 @@ main {
         display: block;
     }
 }
+
  .education-container {
     display: flex; 
     flex-direction: column; 
