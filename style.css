@@ -19,7 +19,6 @@ header {
     background-color: #f0f0f0;
     padding: 15px 0;
 }
-
 header nav {
     display: flex;
     flex-direction: column;
@@ -27,12 +26,25 @@ header nav {
     position: relative;
 }
 
-header h1 {
-    font-size: 1.5em;
+
+header nav h1 {
     margin: 0;
+    font-size: 1.5em;
 }
 
-/* Hide nav-menu by default for mobile (max-width: 600px) */
+.nav-toggle {
+    display: none;
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
 .nav-menu {
     list-style: none;
     padding: 0;
@@ -43,13 +55,8 @@ header h1 {
     background-color: #f0f0f0;
 }
 
-/* Show the nav-menu when .show class is added */
-.nav-menu.show {
-    display: flex;
-}
-
 .nav-menu li {
-    margin: 10px 0;
+    margin: 10px;
 }
 
 .nav-menu a {
@@ -59,20 +66,10 @@ header h1 {
     transition: color 0.3s, border-bottom 0.3s;
 }
 
-.nav-menu a:hover {
+.nav-menu a:hover,
+.nav-menu a.active {
     color: #007bff;
-}
-
-/* Hamburger button for mobile */
-.nav-toggle {
-    display: none;
-    font-size: 1.5em;
-    background: none;
-    border: none;
-    cursor: pointer;
-    position: absolute;
-    right: 15px;
-    top: 15px;
+    border-bottom: 2px solid #007bff;
 }
 
 /* Main section */
